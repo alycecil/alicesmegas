@@ -66,9 +66,6 @@ alicemod_bruteforce_orbital_ring = {
 					has_planet_flag = megastructure
 					has_planet_flag = has_megastructure
                     has_planet_flag = ruined_orbital_ring_planet
-                    solar_system = {
-                        has_star_flag = ring_world_built
-                    }
                     is_planet_class = pc_ringworld_habitable
                     is_planet_class = pc_ringworld_habitable_damaged
                     is_planet_class = pc_ringworld_tech
