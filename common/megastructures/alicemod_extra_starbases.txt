@@ -66,7 +66,7 @@ alicemod_bruteforce_orbital_starport = {
 	# root = system
 	# from = country
 	ai_weight = {
-		factor = 3
+		factor = 4
 
 		modifier = {
 			factor = 0
@@ -74,15 +74,15 @@ alicemod_bruteforce_orbital_starport = {
 		}
 
 		modifier = {
-			factor = 0
+			factor = 5
 			any_system_planet = {
 				is_planet_class = pc_habitat
-				is_colony = no
+				is_colony = yes
 			}
 		}
 
 		modifier = {
-			factor = 2
+			factor = 10
 			solar_system = {
 				exists = owner
 				is_same_value = owner.capital_scope.solar_system
@@ -196,10 +196,10 @@ alicemod_bruteforce_orbital_starhold = {
 		}
 
 		modifier = {
-			factor = 0
+			factor = 5
 			any_system_planet = {
 				is_planet_class = pc_habitat
-				is_colony = no
+				is_colony = yes
 			}
 		}
 
@@ -321,10 +321,10 @@ alicemod_bruteforce_orbital_starfortress = {
 		}
 
 		modifier = {
-			factor = 0
+			factor = 5
 			any_system_planet = {
 				is_planet_class = pc_habitat
-				is_colony = no
+				is_colony = yes
 			}
 		}
 
@@ -447,10 +447,10 @@ alicemod_bruteforce_orbital_citadel = {
 		}
 
 		modifier = {
-			factor = 0
+			factor = 5
 			any_system_planet = {
 				is_planet_class = pc_habitat
-				is_colony = no
+				is_colony = yes
 			}
 		}
 

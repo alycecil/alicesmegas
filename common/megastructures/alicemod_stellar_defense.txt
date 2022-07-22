@@ -354,7 +354,7 @@ alicemod_stellar_defense_large = {
 		category = megastructures
 		cost = {
 			alloys = 3500
-			influence = 50
+			influence = 40
 		}
 	}
 	construction_blocks_and_blocked_by = none
@@ -461,7 +461,7 @@ alicemod_stellar_defense_large_x10 = {
 		category = megastructures
 		cost = {
 			alloys = 35000
-			influence = 250
+			influence = 150
 		}
 	}
 	construction_blocks_and_blocked_by = none
@@ -485,7 +485,7 @@ alicemod_stellar_defense_large_x10 = {
 	# root = system
 	# from = country
 	ai_weight = {
-		factor = 3
+		factor = 10
 
 		modifier = {
 			factor = 0

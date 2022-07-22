@@ -11,8 +11,8 @@ alicemod_bruteforce_orbital_ring = {
 	resources = {
 		category = megastructures
 		cost = {
-			alloys = 10000
-			influence = 250
+			alloys = 5000
+			influence = 150
 		}
 	}
 	construction_blocks_and_blocked_by = none
