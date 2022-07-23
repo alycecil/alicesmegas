@@ -43,6 +43,10 @@
  alicemod_bruteforce_orbital_citadel_DESC:0 "Build an additional Citadel in this system."
  alicemod_bruteforce_orbital_citadel_MEGASTRUCTURE_DETAILS:0 "$alicemod_bruteforce_orbital_citadel_DESC$"
 
+ alicemod_bruteforce_orbital_citadel_rim:0 "Build Citadel (Gateway Style)"
+ alicemod_bruteforce_orbital_citadel_rim_DESC:0 "Build an additional Citadel in this system. This uses the gateway placement rules."
+ alicemod_bruteforce_orbital_citadel_rim_MEGASTRUCTURE_DETAILS:0 "$alicemod_bruteforce_orbital_citadel_DESC$ This uses the gateway placement rules, that is that you can place it outside the primary gravity well, but inside the outer ring."
+
  alicemod_giga_artificial_asteroid:0 "Build Artificial Asteroid Artillery"
  alicemod_giga_artificial_asteroid_DESC:0 "Builds an artificial Asteroid Artillery that cannot bear the stresses of upgrades"
  alicemod_giga_artificial_asteroid_MEGASTRUCTURE_DETAILS:0 "$alicemod_giga_artificial_asteroid_DESC$"
