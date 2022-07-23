@@ -15,6 +15,14 @@
  alicemod_stellar_defense_platfrom_x25_DESC:0 "Create 25 defense platformss orbiting this orbital object."
  alicemod_stellar_defense_platfrom_x25_MEGASTRUCTURE_DETAILS:0 "$alicemod_stellar_defense_platfrom_x25_DESC$"
 
+ alicemod_stellar_defense_platfrom_x5_rim:0 "$alicemod_stellar_defense_platfrom_x5$ (Gateway Style)"
+ alicemod_stellar_defense_platfrom_x5_rim_DESC:0 "$alicemod_stellar_defense_platfrom_x5_DESC$ This uses the gateway placement rules."
+ alicemod_stellar_defense_platfrom_x5_rim_MEGASTRUCTURE_DETAILS:0 "$alicemod_stellar_defense_platfrom_x5_DESC$ This uses the gateway placement rules, that is that you can place it outside the primary gravity well, but inside the outer ring."
+
+ alicemod_stellar_defense_platfrom_x25_rim:0 "$alicemod_stellar_defense_platfrom_x25$ (Gateway Style)"
+ alicemod_stellar_defense_platfrom_x25_rim_DESC:0 "$alicemod_stellar_defense_platfrom_x25_DESC$ This uses the gateway placement rules."
+ alicemod_stellar_defense_platfrom_x25_rim_MEGASTRUCTURE_DETAILS:0 "$alicemod_stellar_defense_platfrom_x25_DESC$ This uses the gateway placement rules, that is that you can place it outside the primary gravity well, but inside the outer ring."
+
  alicemod_bruteforce_orbital_outpost:0 "Build Outpost"
  alicemod_bruteforce_orbital_outpost_DESC:0 "Build an additional Outpost in this system."
  alicemod_stellar_defense_platfrom_x25_MEGASTRUCTURE_DETAILS:0 "$alicemod_bruteforce_orbital_outpost_DESC$"
