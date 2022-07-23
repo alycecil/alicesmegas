@@ -485,7 +485,7 @@ alicemod_stellar_defense_large_x10 = {
 	# root = system
 	# from = country
 	ai_weight = {
-		factor = 10
+		factor = 2
 
 		modifier = {
 			factor = 0
@@ -545,7 +545,7 @@ alicemod_stellar_defense_large_x10 = {
                     }
                     set_location = {
                         target = event_target:giga_planet
-                        distance = 0.5
+                        distance = 1.5
                         angle = 0
                     }
                 }
