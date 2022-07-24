@@ -99,25 +99,24 @@ alicemod_bruteforce_orbital_citadel_rim = {
 	on_build_cancel = {}
 
 	on_build_complete = {
-		fromfrom.planet = {
 
-			create_starbase = {
-				owner = FROM
-				size = "starbase_citadel"
+        create_starbase = {
+            owner = FROM
+            size = "starbase_citadel"
 
-                module = "hangar_bay"
-                module = "hangar_bay"
-                module = "anchorage"
-                module = "anchorage"
-                module = "missile_battery"
-                module = "missile_battery"
+            module = "hangar_bay"
+            module = "hangar_bay"
+            module = "anchorage"
+            module = "anchorage"
+            module = "missile_battery"
+            module = "missile_battery"
 
-                building = "hydroponics_bay"
-                building = "nebula_refinery"
-                building = "target_uplink_computer"
-                building = "defense_grid"
-			}
-		}
+            building = "hydroponics_bay"
+            building = "nebula_refinery"
+            building = "target_uplink_computer"
+            building = "defense_grid"
+        }
+
 		remove_megastructure = fromfrom
 	}
 }
