@@ -48,6 +48,10 @@ alicemod_bruteforce_orbital_citadel_rim = {
                 }
             }
         }
+        check_variable = {
+            which = alicemod_built_thing
+            value < 32
+        }
     }
 
 	placement_rules = {	}
@@ -99,6 +103,10 @@ alicemod_bruteforce_orbital_citadel_rim = {
 	on_build_cancel = {}
 
 	on_build_complete = {
+        change_variable = {
+            which = alicemod_built_thing
+            value = 1
+        }
 
         create_starbase = {
             owner = FROM

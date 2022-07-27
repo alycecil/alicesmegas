@@ -33,6 +33,10 @@ alicemod_bruteforce_orbital_starport = {
 			fail_text = "requires_inside_border"
 			is_inside_border = from
 		}
+        check_variable = {
+            which = alicemod_built_thing
+            value < 32
+        }
 	}
 
 	placement_rules = {
