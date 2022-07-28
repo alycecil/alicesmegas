@@ -107,23 +107,38 @@ alicemod_bruteforce_orbital_citadel_rim = {
             which = alicemod_built_thing
             value = 1
         }
+        spawn_planet = {
+            class = "pc_asteroid"
+            location = root
 
-        create_starbase = {
-            owner = FROM
-            size = "starbase_citadel"
+            size = 1
+            has_ring = no
 
-            module = "hangar_bay"
-            module = "hangar_bay"
-            module = "anchorage"
-            module = "anchorage"
-            module = "missile_battery"
-            module = "missile_battery"
+            init_effect = {
+                set_all_comms_surveyed = yes
+                trigger_megastructure_icon = yes
+                set_planet_flag = megastructure
+                set_planet_flag = has_megastructure
 
-            building = "hydroponics_bay"
-            building = "nebula_refinery"
-            building = "target_uplink_computer"
-            building = "defense_grid"
+                create_starbase = {
+                    owner = FROM
+                    size = "starbase_citadel"
+
+                    module = "hangar_bay"
+                    module = "hangar_bay"
+                    module = "anchorage"
+                    module = "anchorage"
+                    module = "missile_battery"
+                    module = "missile_battery"
+
+                    building = "hydroponics_bay"
+                    building = "nebula_refinery"
+                    building = "target_uplink_computer"
+                    building = "defense_grid"
+                }
+            }
         }
+
 
 		remove_megastructure = fromfrom
 	}
