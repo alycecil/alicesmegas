@@ -42,35 +42,7 @@ alicemod_stellar_defense_platfrom_x5_rim = {
 	# root = system
 	# from = country
 	ai_weight = {
-		factor = 1
-
-		modifier = {
-			factor = 0
-			starbase = { NOT = { has_starbase_size >= starbase_starport } }
-		}
-
-		modifier = {
-			factor = 2
-			solar_system = {
-				exists = owner
-				is_same_value = owner.capital_scope.solar_system
-			}
-		}
-		modifier = {
-			factor = 1.5
-			any_neighbor_system = {
-				exists = owner
-				is_same_value = owner.capital_scope.solar_system
-			}
-		}
-
-		modifier = {
-			factor = 2.5
-			any_neighbor_system = {
-				exists = owner
-				owner = { NOT = { is_same_value = from } }
-			}
-		}
+		factor = 0
 	}
 
 	on_build_start = {}
@@ -145,35 +117,7 @@ alicemod_stellar_defense_platfrom_x25_rim = {
 	# root = system
 	# from = country
 	ai_weight = {
-		factor = 1
-
-		modifier = {
-			factor = 0
-			starbase = { NOT = { has_starbase_size >= starbase_starport } }
-		}
-
-		modifier = {
-			factor = 2
-			solar_system = {
-				exists = owner
-				is_same_value = owner.capital_scope.solar_system
-			}
-		}
-		modifier = {
-			factor = 1.5
-			any_neighbor_system = {
-				exists = owner
-				is_same_value = owner.capital_scope.solar_system
-			}
-		}
-
-		modifier = {
-			factor = 2.5
-			any_neighbor_system = {
-				exists = owner
-				owner = { NOT = { is_same_value = from } }
-			}
-		}
+		factor = 0
 	}
 
 	on_build_start = {}
@@ -469,35 +413,7 @@ alicemod_giga_artificial_asteroid = {
 	# root = system
 	# from = country
 	ai_weight = {
-		factor = 3
-
-		modifier = {
-			factor = 0
-			starbase = { NOT = { has_starbase_size >= starbase_starport } }
-		}
-
-		modifier = {
-			factor = 2
-			solar_system = {
-				exists = owner
-				is_same_value = owner.capital_scope.solar_system
-			}
-		}
-		modifier = {
-			factor = 1.5
-			any_neighbor_system = {
-				exists = owner
-				is_same_value = owner.capital_scope.solar_system
-			}
-		}
-
-		modifier = {
-			factor = 2.5
-			any_neighbor_system = {
-				exists = owner
-				owner = { NOT = { is_same_value = from } }
-			}
-		}
+		factor = 0
 	}
 
 	on_build_start = {
