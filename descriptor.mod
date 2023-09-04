@@ -4,6 +4,6 @@ tags={
 	"Gameplay"
 	"Technologies"
 }
-name="alice's megastructures"
+name="alice's megastructures v2"
 supported_version="3.4.5"
 remote_file_id="2830180890"

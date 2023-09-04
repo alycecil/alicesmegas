@@ -193,7 +193,7 @@ alicemod_stellar_defense_platfrom_x5 = {
 	# root = system
 	# from = country
 	ai_weight = {
-		factor = 3
+		factor = 0
 
 		modifier = {
 			factor = 0
@@ -209,7 +209,7 @@ alicemod_stellar_defense_platfrom_x5 = {
 		}
 
 		modifier = {
-			factor = 2
+			factor = 1.5
 			solar_system = {
 				exists = owner
 				is_same_value = owner.capital_scope.solar_system
@@ -224,7 +224,7 @@ alicemod_stellar_defense_platfrom_x5 = {
 		}
 
 		modifier = {
-			factor = 2.5
+			factor = 1.5
 			any_neighbor_system = {
 				exists = owner
 				owner = { NOT = { is_same_value = from } }
@@ -308,7 +308,7 @@ alicemod_stellar_defense_platfrom_x25 = {
 	# root = system
 	# from = country
 	ai_weight = {
-		factor = 3
+		factor = 0
 
 		modifier = {
 			factor = 0
@@ -331,7 +331,7 @@ alicemod_stellar_defense_platfrom_x25 = {
 		}
 
 		modifier = {
-			factor = 2.5
+			factor = 1.5
 			any_neighbor_system = {
 				exists = owner
 				owner = { NOT = { is_same_value = from } }
@@ -486,7 +486,7 @@ alicemod_stellar_defense_large = {
 	# root = system
 	# from = country
 	ai_weight = {
-		factor = 3
+		factor = 0
 
 		modifier = {
 			factor = 0
@@ -502,7 +502,7 @@ alicemod_stellar_defense_large = {
 		}
 
 		modifier = {
-			factor = 2
+			factor = 1.5
 			solar_system = {
 				exists = owner
 				is_same_value = owner.capital_scope.solar_system
@@ -517,7 +517,7 @@ alicemod_stellar_defense_large = {
 		}
 
 		modifier = {
-			factor = 2.5
+			factor = 1.5
 			any_neighbor_system = {
 				exists = owner
 				owner = { NOT = { is_same_value = from } }
@@ -592,7 +592,7 @@ alicemod_stellar_defense_large_x10 = {
 	# root = system
 	# from = country
 	ai_weight = {
-		factor = 2
+		factor = 0
 
 		modifier = {
 			factor = 0
@@ -609,7 +609,7 @@ alicemod_stellar_defense_large_x10 = {
 		}
 
 		modifier = {
-			factor = 2
+			factor = 1.5
 			solar_system = {
 				exists = owner
 				is_same_value = owner.capital_scope.solar_system
@@ -624,7 +624,7 @@ alicemod_stellar_defense_large_x10 = {
 		}
 
 		modifier = {
-			factor = 2.5
+			factor = 1.5
 			any_neighbor_system = {
 				exists = owner
 				owner = { NOT = { is_same_value = from } }
