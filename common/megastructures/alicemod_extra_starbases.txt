@@ -33,14 +33,11 @@ alicemod_bruteforce_orbital_starport = {
 			fail_text = "requires_inside_border"
 			is_inside_border = from
 		}
-        check_variable = {
-            which = alicemod_built_thing
-            value < 32
-        }
 	}
 
 	placement_rules = {
 		planet_possible = {
+            NOT = { has_planet_flag = alicemod_starbase_exists is_star = no }
 			custom_tooltip = {
 				fail_text = "requires_surveyed_planet"
 				is_surveyed = { # prevent leaking habitability information
@@ -113,6 +110,7 @@ alicemod_bruteforce_orbital_starport = {
 	on_build_cancel = {}
 
 	on_build_complete = {
+	    set_planet_flag = alicemod_starbase_exists
 		fromfrom.planet = {
 
 			create_starbase = {
@@ -163,6 +161,7 @@ alicemod_bruteforce_orbital_starhold = {
 
 	placement_rules = {
 		planet_possible = {
+            NOT = { has_planet_flag = alicemod_starbase_exists is_star = no }
 			custom_tooltip = {
 				fail_text = "requires_surveyed_planet"
 				is_surveyed = { # prevent leaking habitability information
@@ -236,6 +235,7 @@ alicemod_bruteforce_orbital_starhold = {
 
 	on_build_complete = {
 		fromfrom.planet = {
+	        set_planet_flag = alicemod_starbase_exists
 
 			create_starbase = {
 				owner = FROM
@@ -288,6 +288,7 @@ alicemod_bruteforce_orbital_starfortress = {
 
 	placement_rules = {
 		planet_possible = {
+            NOT = { has_planet_flag = alicemod_starbase_exists is_star = no }
 			custom_tooltip = {
 				fail_text = "requires_surveyed_planet"
 				is_surveyed = { # prevent leaking habitability information
@@ -361,6 +362,7 @@ alicemod_bruteforce_orbital_starfortress = {
 
 	on_build_complete = {
 		fromfrom.planet = {
+	        set_planet_flag = alicemod_starbase_exists
 
 			create_starbase = {
 				owner = FROM
@@ -414,6 +416,7 @@ alicemod_bruteforce_orbital_citadel = {
 
 	placement_rules = {
 		planet_possible = {
+            NOT = { has_planet_flag = alicemod_starbase_exists is_star = no }
 			custom_tooltip = {
 				fail_text = "requires_surveyed_planet"
 				is_surveyed = { # prevent leaking habitability information
@@ -487,6 +490,7 @@ alicemod_bruteforce_orbital_citadel = {
 
 	on_build_complete = {
 		fromfrom.planet = {
+	        set_planet_flag = alicemod_starbase_exists
 
 			create_starbase = {
 				owner = FROM
