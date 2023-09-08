@@ -37,7 +37,7 @@ alicemod_bruteforce_orbital_starport = {
 
 	placement_rules = {
 		planet_possible = {
-            NOT = { has_planet_flag = alicemod_starbase_exists is_star = no }
+            NOT = { has_planet_flag = alicemod_starbase_exists is_star = yes }
 			custom_tooltip = {
 				fail_text = "requires_surveyed_planet"
 				is_surveyed = { # prevent leaking habitability information
@@ -161,7 +161,7 @@ alicemod_bruteforce_orbital_starhold = {
 
 	placement_rules = {
 		planet_possible = {
-            NOT = { has_planet_flag = alicemod_starbase_exists is_star = no }
+            NOT = { has_planet_flag = alicemod_starbase_exists is_star = yes }
 			custom_tooltip = {
 				fail_text = "requires_surveyed_planet"
 				is_surveyed = { # prevent leaking habitability information
@@ -288,7 +288,7 @@ alicemod_bruteforce_orbital_starfortress = {
 
 	placement_rules = {
 		planet_possible = {
-            NOT = { has_planet_flag = alicemod_starbase_exists is_star = no }
+            NOT = { has_planet_flag = alicemod_starbase_exists is_star = yes }
 			custom_tooltip = {
 				fail_text = "requires_surveyed_planet"
 				is_surveyed = { # prevent leaking habitability information
@@ -416,7 +416,7 @@ alicemod_bruteforce_orbital_citadel = {
 
 	placement_rules = {
 		planet_possible = {
-            NOT = { has_planet_flag = alicemod_starbase_exists is_star = no }
+            NOT = { has_planet_flag = alicemod_starbase_exists is_star = yes }
 			custom_tooltip = {
 				fail_text = "requires_surveyed_planet"
 				is_surveyed = { # prevent leaking habitability information
