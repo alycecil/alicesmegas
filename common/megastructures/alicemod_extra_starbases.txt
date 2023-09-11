@@ -98,7 +98,7 @@ alicemod_bruteforce_orbital_starport = {
 		}
 
 		modifier = {
-			factor = 0.1
+			factor = 5
 			any_neighbor_system = {
 				exists = owner
 				owner = { NOT = { is_same_value = from } }
@@ -222,7 +222,7 @@ alicemod_bruteforce_orbital_starhold = {
 		}
 
 		modifier = {
-			factor = 0.1
+			factor = 5
 			any_neighbor_system = {
 				exists = owner
 				owner = { NOT = { is_same_value = from } }
@@ -349,7 +349,7 @@ alicemod_bruteforce_orbital_starfortress = {
 		}
 
 		modifier = {
-			factor = 0.1
+			factor = 5
 			any_neighbor_system = {
 				exists = owner
 				owner = { NOT = { is_same_value = from } }
@@ -477,7 +477,7 @@ alicemod_bruteforce_orbital_citadel = {
 		}
 
 		modifier = {
-			factor = 0.1
+			factor = 5
 			any_neighbor_system = {
 				exists = owner
 				owner = { NOT = { is_same_value = from } }
