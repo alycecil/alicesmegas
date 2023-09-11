@@ -20,7 +20,7 @@ alicemod_bruteforce_orbital_starport = {
 		category = megastructures
 		cost = {
 			alloys = 2000
-			influence = 100
+			influence = 50
 		}
 	}
 	construction_blocks_and_blocked_by = none
@@ -144,7 +144,7 @@ alicemod_bruteforce_orbital_starhold = {
 		category = megastructures
 		cost = {
 			alloys = 4000
-			influence = 150
+			influence = 50
 		}
 	}
 	construction_blocks_and_blocked_by = none
@@ -271,7 +271,7 @@ alicemod_bruteforce_orbital_starfortress = {
 		category = megastructures
 		cost = {
 			alloys = 8000
-			influence = 200
+			influence = 50
 		}
 	}
 	construction_blocks_and_blocked_by = none
@@ -399,7 +399,7 @@ alicemod_bruteforce_orbital_citadel = {
 		category = megastructures
 		cost = {
 			alloys = 12000
-			influence = 250
+			influence = 50
 		}
 	}
 	construction_blocks_and_blocked_by = none
